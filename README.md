@@ -30,7 +30,7 @@ sudo bash < <(curl -Ls https://raw.githubusercontent.com/ChengFork/crack-soga-v2
 
 ```
 # 拉取镜像
-docker pull rmanluo/crack-soga
+docker pull icheng/crack-soga
 # 运行镜像，参数请参考soga自带教程。
 docker run --restart=always --name crack-soga -d -v /etc/soga/:/etc/soga/ --network host rmanluo/crack-soga \
 --type=sspanel-uim \
